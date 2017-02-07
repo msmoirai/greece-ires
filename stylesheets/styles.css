@@ -4372,6 +4372,13 @@ img.mfp-img {
   }
 }
 
+.info-bar-text {
+  text-align: center;
+  font-size: 3em;
+  margin: 0px;
+  color: #ffffff;
+}
+
 .small-action {
   width: 100%;
   color: #fff;
