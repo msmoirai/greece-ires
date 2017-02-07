@@ -8,12 +8,15 @@ layout: default
 
 <r:partial name="custom-patterns/back-page-header" />
 
+
+
 <div class="wvu-container">
 
-  <main class="main full-width">
-    <h1><r:editable_region name="page-title" /></h1>
-    <r:partial name="patterns/wvu-gallery" />
+  <main id="maincontent" class="main full-width">
+    <h1><r:page:name /></h1>
+      <r:partial name="patterns/wvu-gallery" />
   </main>
+
 </div> <!-- /.wvu-container -->
 
 <r:partial name="custom-patterns/small-action" />
