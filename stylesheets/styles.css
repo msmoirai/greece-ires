@@ -3987,6 +3987,127 @@ img.mfp-img {
   height: 56px;
 }
 
+.front-page-hero {
+  background-color: #002855;
+  background-position: 75% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  /*h1*/
+  /*h2*/
+  /*h1*/
+}
+
+.front-page-hero h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.6) 1px 2px 1px;
+  line-height: 2.2rem;
+  font-style: italic;
+  /*mq*/
+  /*mq*/
+}
+
+@media (min-width: 48em) {
+  .front-page-hero h1 {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 75em) {
+  .front-page-hero h1 {
+    font-size: 5rem;
+  }
+}
+
+.front-page-hero h2 {
+  font-size: 1.25rem;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.6) 1px 2px 1px;
+  /*mq*/
+  /*mq*/
+}
+
+@media (min-width: 48em) {
+  .front-page-hero h2 {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 75em) {
+  .front-page-hero h2 {
+    font-size: 3rem;
+  }
+}
+
+.front-page-hero p.wvu-lede {
+  font-size: 1rem;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.6) 1px 2px 1px;
+  line-height: 1.8rem;
+  /*mq*/
+  /*mq*/
+}
+
+@media (min-width: 48em) {
+  .front-page-hero p.wvu-lede {
+    font-size: 2rem;
+    max-width: 38em;
+    line-height: 2.3rem;
+  }
+}
+
+@media (min-width: 75em) {
+  .front-page-hero p.wvu-lede {
+    font-size: 2rem;
+  }
+}
+
+.front-page-hero__container {
+  max-width: 1560px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 3em 0 1em 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media (min-width: 48em) {
+  .front-page-hero__container {
+    padding: 6em 0 3em 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media (min-width: 60em) {
+  .front-page-hero__container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media (min-width: 75em) {
+  .front-page-hero__container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.front-page-hero__text {
+  margin-bottom: 3em;
+  font-weight: bold;
+}
+
+@media (min-width: 48em) {
+  .front-page-hero__text {
+    max-width: 40%;
+  }
+}
+
 .ires-hero {
   color: white;
   background-color: #333F48;
