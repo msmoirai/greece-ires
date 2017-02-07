@@ -140,7 +140,7 @@
 // --WVU Containers--  Overwriting the base WVU patterns containers padding to create better consistency --
 .wvu-container {
   padding: 1rem 1.5rem 1.5rem;
-  @include mq($bp-medium) {
+  @include mq($bp-1560) {
     padding: 2.5rem 1.5rem 2rem;
   }
   @include mq($bp-xlarge) {

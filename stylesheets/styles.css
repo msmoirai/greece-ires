@@ -4768,7 +4768,7 @@ img.mfp-img {
   padding: 1rem 1.5rem 1.5rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: min-width 1560px 12 / 16em) {
   .wvu-container {
     padding: 2.5rem 1.5rem 2rem;
   }
