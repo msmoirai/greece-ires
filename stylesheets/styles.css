@@ -3918,6 +3918,54 @@ img.mfp-img {
   }
 }
 
+.wvu-callout__container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wvu-callout__container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.wvu-header__container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wvu-header__container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+@media (min-width: 48em) {
+  .wvu-header__title {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 61.61588%;
+  }
+  .wvu-header__title:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 60em) {
+  .wvu-header__title {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 70.14568%;
+  }
+  .wvu-header__title:last-child {
+    margin-right: 0;
+  }
+}
+
 .ie9 .wvu-masthead__search-slider {
   position: relative;
   top: 0;
