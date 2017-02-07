@@ -25,7 +25,7 @@
 }
 .callout__feature-container {
   @include outer-container;
-  @include mq($bp-1560) {
+  @include mq($bp-medium) {
       display: flex;
       align-items: center;
     } //mq
@@ -85,7 +85,7 @@
   h3 {
   	color: white;
   }
-  
+
   li {
     font-size: 1rem;
     line-height: 1.5rem;

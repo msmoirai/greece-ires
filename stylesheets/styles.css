@@ -4395,7 +4395,7 @@ img.mfp-img {
   display: table;
 }
 
-@media (min-width: min-width 1560px 12 / 16em) {
+@media (min-width: 48em) {
   .callout__feature-container {
     display: flex;
     align-items: center;
