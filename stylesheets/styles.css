@@ -4361,8 +4361,8 @@ img.mfp-img {
 }
 
 .callout-feature__background {
-  background-image: url(../images/wvu-pattern-background--gold--2.png);
-  background-color: #EAAA00;
+  background-image: url(../images/wvu-pattern-background--blue--2.png);
+  background-color: white;
   background-size: cover;
 }
 
