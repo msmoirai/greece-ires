@@ -4205,7 +4205,7 @@ img.mfp-img {
   font-family: Impact, Charcoal, "Arial Black", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 6rem;
   /*mq*/
 }
 
@@ -4395,7 +4395,7 @@ img.mfp-img {
   display: table;
 }
 
-@media (min-width: 48em) {
+@media (min-width: min-width 1560px 12 / 16em) {
   .callout__feature-container {
     display: flex;
     align-items: center;
@@ -4489,10 +4489,6 @@ img.mfp-img {
 
 .callout__side h3 {
   color: white;
-}
-
-.callout__side ul {
-  list-style-type: none;
 }
 
 .callout__side li {
