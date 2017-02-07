@@ -4,13 +4,13 @@
 // -- Background Image --
 .callout-feature__background {
   background-image: url(../images/wvu-pattern-background--blue--2.png);
-  background-color: white;
+  background-color: $wvu-blue;
   background-size: cover;
 }
 
 .callout-side-container__background {
 
-  background-color: #002855;
+  background-color: $wvu-gold;
   background-position: right;
   background-size: cover;
   color: #ffffff;
