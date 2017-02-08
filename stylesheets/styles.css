@@ -4561,6 +4561,9 @@ blockquote {
   line-height: 1.45;
   position: relative;
   color: #ffffff;
+  /*Borders - (Optional)*/
+  border-left: 15px solid #ffffff;
+  border-right: 2px solid #ffffff;
 }
 
 blockquote:before {
