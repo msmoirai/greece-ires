@@ -4223,12 +4223,14 @@ img.mfp-img {
 @media (min-width: 48em) {
   .ires-hero__header h1 {
     font-size: 4rem;
+    line-height: .85em;
   }
 }
 
 @media (min-width: 60em) {
   .ires-hero__header h1 {
     font-size: 6rem;
+    line-height: .85em;
   }
 }
 

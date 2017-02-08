@@ -70,10 +70,12 @@
     }
     @include mq($bp-medium) {
 			font-size: 4rem;
+      line-height: .85em;
 
 		}/*mq*/
     @include mq($bp-large) {
       font-size: 6rem;
+      line-height: .85em;
 
     }/*mq*/
   }
