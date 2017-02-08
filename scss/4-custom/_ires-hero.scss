@@ -72,7 +72,7 @@
 			font-size: 4rem;
 
 		}/*mq*/
-    @include mq($bp-medium) {
+    @include mq($bp-large) {
       font-size: 6rem;
 
     }/*mq*/
