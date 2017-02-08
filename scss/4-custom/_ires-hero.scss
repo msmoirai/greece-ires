@@ -61,7 +61,8 @@
 
   h1 {
     @include wvu-shout;
-    font-size: 6rem;
+    font-size: 2rem;
+    line-height: 1.8rem;
 
     span {
       display: block;
@@ -71,6 +72,10 @@
 			font-size: 4rem;
 
 		}/*mq*/
+    @include mq($bp-medium) {
+      font-size: 6rem;
+
+    }/*mq*/
   }
   p {
     font-size: 1.8rem;

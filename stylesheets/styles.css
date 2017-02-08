@@ -4205,7 +4205,9 @@ img.mfp-img {
   font-family: Impact, Charcoal, "Arial Black", "Helvetica Neue", Helvetica, "Helvetica LT Std", "Helvetica CY", Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 6rem;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  /*mq*/
   /*mq*/
 }
 
@@ -4221,6 +4223,12 @@ img.mfp-img {
 @media (min-width: 48em) {
   .ires-hero__header h1 {
     font-size: 4rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .ires-hero__header h1 {
+    font-size: 6rem;
   }
 }
 
