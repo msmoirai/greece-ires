@@ -4218,7 +4218,7 @@ img.mfp-img {
   color: #EAAA00;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 48em) {
   .ires-hero__header h1 {
     font-size: 4rem;
   }

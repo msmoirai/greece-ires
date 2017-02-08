@@ -67,7 +67,7 @@
       display: block;
       color: $wvu-gold;
     }
-    @include mq($bp-large) {
+    @include mq($bp-medium) {
 			font-size: 4rem;
 
 		}/*mq*/
