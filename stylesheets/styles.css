@@ -4564,6 +4564,15 @@ blockquote {
   border-left: 0px;
   background-image: url(../images/openquote-01.png);
   background-repeat: no-repeat;
+  /*mq*/
+}
+
+@media (min-width: 48em) {
+  blockquote {
+    font-size: 1rem;
+    max-width: 38em;
+    line-height: 2.3rem;
+  }
 }
 
 blockquote cite {
