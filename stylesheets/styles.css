@@ -4557,13 +4557,12 @@ img.mfp-img {
 blockquote {
   font-size: 2rem;
   margin: 0.25em 0;
-  padding: 0.25em 40px;
+  padding: 0.25em 40px 0.25em 110px;
   line-height: 1.45;
   position: relative;
   color: #ffffff;
   border-left: 0px;
   background-image: url(../images/openquote-01.png);
-  background-position: middle left;
   background-repeat: no-repeat;
 }
 
