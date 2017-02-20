@@ -4562,7 +4562,7 @@ blockquote {
   position: relative;
   color: #ffffff;
   border-left: 0px;
-  background-image: url(images/openquote-01.png);
+  background-image: url(../images/openquote-01.png);
   background-position: middle left;
   background-repeat: no-repeat;
 }
