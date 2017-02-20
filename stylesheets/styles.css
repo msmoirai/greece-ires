@@ -4555,10 +4555,11 @@ img.mfp-img {
 }
 
 blockquote {
-  font-size: 2rem;
+  font-size: 1rem;
+  max-width: 38em;
   margin: 0.25em 0;
   padding: 0.25em 40px 0.25em 110px;
-  line-height: 1.45;
+  line-height: 1.45rem;
   position: relative;
   color: #ffffff;
   border-left: 0px;
@@ -4569,9 +4570,8 @@ blockquote {
 
 @media (min-width: 48em) {
   blockquote {
-    font-size: 1rem;
-    max-width: 38em;
-    line-height: 2.3rem;
+    font-size: 2rem;
+    line-height: 1.45rem;
   }
 }
 
