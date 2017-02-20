@@ -18,6 +18,9 @@ line-height: 1.45;
 position: relative;
 color: #ffffff;
 border-left: 0px;
+background-image: url(images/openquote-01.png);
+ background-position: middle left;
+ background-repeat: no-repeat;
 }
 
 blockquote:before {
@@ -30,15 +33,6 @@ top: -20px;
 color: #ffffff;
 }
 
-blockquote:after {
-display: block;
-content: "\201D";
-font-size: 80px;
-position: absolute;
-left: 0px;
-top: 20px;
-color: #ffffff;
-}
 
 blockquote cite {
 color: #fff;
