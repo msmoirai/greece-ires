@@ -4574,6 +4574,16 @@ blockquote:before {
   color: #ffffff;
 }
 
+blockquote:after {
+  display: block;
+  content: "\201D";
+  font-size: 80px;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  color: #ffffff;
+}
+
 blockquote cite {
   color: #fff;
   font-size: 1rem;
