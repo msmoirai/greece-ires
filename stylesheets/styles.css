@@ -4583,6 +4583,7 @@ blockquote cite:before {
   margin-left: auto;
   margin-right: auto;
   padding: 1.5em;
+  max-width: 68em;
 }
 
 .small-action__container::after {

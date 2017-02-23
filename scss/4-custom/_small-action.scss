@@ -9,6 +9,7 @@
 .small-action__container {
   @include outer-container;
   padding: $base-spacing;
+  max-width: 68em;
 } //.small-action__container
 
 .small-action__text {
