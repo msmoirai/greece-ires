@@ -10,7 +10,7 @@
 
 	    @include wvu-shout();
 	    color: white;
-	    text-shadow: $black 2px 2px;
+
 	    position: relative;
 			margin-bottom: 0;
 	  }
@@ -53,7 +53,7 @@
 .back-page-header__breadcrumbs {
     font-size: 1.2rem;
     color: #fff;
-    text-shadow: 1px 1px 1px #000;
+
     bottom: 15px;
     width: auto;
     @include mq($bp-medium){
@@ -63,7 +63,7 @@
   a {
       color: #fff;
       font-weight: bold;
-      text-shadow: 1px 1px 1px #000;
+
   } //a
 } //.back-page-header__breadcrumbs
 

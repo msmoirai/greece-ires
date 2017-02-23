@@ -4207,7 +4207,6 @@ img.mfp-img {
   font-weight: normal;
   font-size: 2rem;
   line-height: 1.8rem;
-  text-shadow: #2C2A29 2px 2px;
   position: relative;
   /*mq*/
   /*mq*/
@@ -4269,7 +4268,6 @@ img.mfp-img {
   text-transform: uppercase;
   font-weight: normal;
   color: white;
-  text-shadow: #2C2A29 2px 2px;
   position: relative;
   margin-bottom: 0;
 }
@@ -4339,7 +4337,6 @@ img.mfp-img {
 .back-page-header__breadcrumbs {
   font-size: 1.2rem;
   color: #fff;
-  text-shadow: 1px 1px 1px #000;
   bottom: 15px;
   width: auto;
 }
@@ -4354,7 +4351,6 @@ img.mfp-img {
 .back-page-header__breadcrumbs a {
   color: #fff;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #000;
 }
 
 .wvu-breadcrumbs__crumbs {
