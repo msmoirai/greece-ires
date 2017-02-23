@@ -30,8 +30,7 @@
       align-items: center;
     } //mq
   .callout__main-feature {
-  	margin-left: 1rem;
-  	margin-right: 1rem;
+
   	padding-top: 1rem;
   	p.wvu-lede-small {
   	font-size: 1.2rem;
@@ -51,7 +50,7 @@
 	padding: 0 6rem 0 0;
   }
     @include mq($bp-medium) {
-    	margin-left: 1rem;
+    	
     	@include span-columns(7);
     } //mq
   } //callout__main-feature
