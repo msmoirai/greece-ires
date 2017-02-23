@@ -8,24 +8,11 @@
     -webkit-font-smoothing: antialiased;
 	h1{
 
-
-
-
-		@include wvu-shout();
-		color: white;
-		text-shadow: $text-shadow-dark;
-        text-transform: capitalize;
-        font-weight: bold;
-		margin-bottom: 0;
-		@include mq($bp-medium){
-            margin-top: 4rem;
-			font-size: 3rem;
-		}/*mq*/
-		@include mq($bp-xlarge){
-            margin-top: 4.5rem;
-			font-size: 3.5rem;
-		}/*mq*/
-	}/*h1*/
+	    @include wvu-shout();
+	    color: white;
+	    text-shadow: $black 2px 2px;
+	    position: relative;
+	  }
     p{
         font-size: 1rem;
         color: white;
