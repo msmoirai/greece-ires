@@ -4207,6 +4207,8 @@ img.mfp-img {
   font-weight: normal;
   font-size: 2rem;
   line-height: 1.8rem;
+  text-shadow: #2C2A29 2px 2px;
+  position: relative;
   /*mq*/
   /*mq*/
 }
@@ -4269,6 +4271,7 @@ img.mfp-img {
   color: white;
   text-shadow: #2C2A29 2px 2px;
   position: relative;
+  margin-bottom: 0;
 }
 
 .fonts-loaded .back-page-header h1 {
